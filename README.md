@@ -21,7 +21,7 @@ To start the application in development mode, run the following command:
 npm run dev
 ```
 
-This will start the application in development mode. Open http://localhost:3000 with your browser to see the result. The page auto-updates as you edit the file.
+This will start the application in development mode. Open http://localhost:3001 with your browser to see the result. The page auto-updates as you edit the file.
 
 Alternatively, you can set the API URL using the npm command:
 ```
@@ -40,3 +40,4 @@ Then to start the application in production mode, run the following command:
 ```
 npm run start
 ```
+This will start the application in production mode. Open http://localhost:3001 with your browser to see the result.
