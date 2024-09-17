@@ -1,0 +1,38 @@
+{
+  "CityList": {
+    "selectCity": "Válassz várost",
+    "selectCityOptionDefault": "Válassz várost"
+  },
+  "VenueList": {
+    "selectVenue": "Válassz mozit",
+    "selectVenueOptionDefault": "Válassz mozit"
+  },
+  "LanguageSwitcher": {
+    "en": "Angol",
+    "hu": "Magyar"
+  },
+  "ScreeningList": {
+    "noAvailableSeats": "Nincs szabad ülőhely",
+    "reservationNotStarted": "A foglalás a vetítés hetében kezdődik",
+    "selectDate": "Válassz dátumot"
+  },
+  "CinemaReservation": {
+    "partnerApiUnavailable": "A partner API nem elérhető",
+    "email": "Email",
+    "makeReservation": "Foglalás"
+  },
+  "SeatList": {
+    "reserved": "Foglalt",
+    "unavailable": "Nem elérhető"
+  },
+  "venueSlice": {
+    "reservationMade": "Foglalás megtörtént",
+    "requestBodyFormatError": "Hibás kérési formátum",
+    "venueOrScreeningNotFound": "A mozi vagy a vetítés nem található",
+    "seatNotFound":  "Az ülőhely nem található",
+    "seatNotAvailable": "Az ülőhely nem elérhető",
+    "reservationCannotBeDone": "A foglalás jelenleg nem lehetséges",
+    "internalError": "Belső hiba a partner rendszerében",
+    "unknownError": "Ismeretlen hiba"
+  }
+}

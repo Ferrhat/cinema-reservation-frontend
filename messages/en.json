@@ -1,0 +1,38 @@
+{
+  "CityList": {
+    "selectCity": "Select a city",
+    "selectCityOptionDefault": "Select a city"
+  },
+  "VenueList": {
+    "selectVenue": "Select a cinema",
+    "selectVenueOptionDefault": "Select a cinema"
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "hu": "Hungarian"
+  },
+  "ScreeningList": {
+    "noAvailableSeats": "No available seats",
+    "reservationNotStarted": "Reservation starts on the week of the screening",
+    "selectDate": "Select a date"
+  },
+  "CinemaReservation": {
+    "partnerApiUnavailable": "Partner API is unavailable",
+    "email": "Email",
+    "makeReservation": "Make reservation"
+  },
+  "SeatList": {
+    "reserved": "Reserved",
+    "unavailable": "Unavailable"
+  },
+  "venueSlice": {
+    "reservationMade": "Reservation made",
+    "requestBodyFormatError": "Request body format error",
+    "venueOrScreeningNotFound": "Venue or screening not found",
+    "seatNotFound": "Seat not found",
+    "seatNotAvailable": "Seat not available",
+    "reservationCannotBeDone": "Reservation cannot be done at this moment",
+    "internalError": "Internal error in the Partner's system",
+    "unknownError": "Unknown error"
+  }
+}
