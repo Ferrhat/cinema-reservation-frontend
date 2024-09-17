@@ -2,13 +2,23 @@ import React, { useState } from "react";
 import Calendar from "react-calendar";
 import 'react-calendar/dist/Calendar.css';
 
+type ValuePiece = Date | null;
+type Value = ValuePiece | ValuePiece[];
+
 const ToggleCalendar = ({ date, setDate }: {
     date: Date;
     setDate: (date: Date) => void;
   }) => {
   const [showCalendar, setShowCalendar] = useState(false);
-  const handleChange = (value: Date) => {
-    setDate(value);
+
+  const handleChange = (value: Value) => {
+    if (value) {
+      if (Array.isArray(value)) {
+        setDate(value[0] as Date);
+      } else {
+        setDate(value as Date);
+      }
+    }
     setShowCalendar(false);
   };
 
